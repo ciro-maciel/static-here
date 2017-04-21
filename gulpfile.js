@@ -141,9 +141,9 @@ function production() {
     }
 
     var assets = {
-        i18n: function i18n() {
-            return gulp.src(['./developer/assets/i18n/**/*'])
-                .pipe(gulp.dest('./production/assets/i18n/'));
+        locales: function locales() {
+            return gulp.src(['./developer/assets/locales/**/*'])
+                .pipe(gulp.dest('./production/assets/locales/'));
         },
         img: function img() {
             return gulp.src(['./developer/assets/img/**/*'])
@@ -155,7 +155,7 @@ function production() {
         }
     }
 
-    return gulp.series(clean, transform, gulp.parallel(assets.i18n, assets.img, assets.humans));
+    return gulp.series(clean, transform, gulp.parallel(assets.locales, assets.img, assets.humans));
 
 }
 
