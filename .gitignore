@@ -1,0 +1,17 @@
+/dist/src/*
+!/dist/src/.gitkeep
+/doc/*
+!/doc/.gitkeep
+/node_modules/
+/nbproject/*
+
+*.log
+
+.vscode/*
+
+/developer/*
+!/developer/.gitkeep
+
+
+/production/*
+!/production/.gitkeep

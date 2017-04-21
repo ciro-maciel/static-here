@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>
+        {% if title %}
+            {{title}} | Static Here
+        {% else %}
+            Static Here
+        {% endif %}
+    </title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- build:css /assets/css/style.css -->
+    <link rel="stylesheet" media="all" href="/assets/css/test.css">
+    <link rel="stylesheet" media="all" href="/assets/css/style.css">
+    <!-- endbuild -->
+ 
+    <!-- build:jsVendor /assets/js/vendor.js -->
+    <script type="text/javascript" src="/assets/js/vendor/moment.js"></script> 
+    <!--endbuild-->
+
+    <!-- build:jsLibrary /assets/js/library.js -->
+    <script type="text/javascript" src="/assets/js/library/utility.js"></script>
+    <!--endbuild-->
+
+    <!-- build:jsApp /assets/js/app.js -->
+    <script type="text/javascript" src="/assets/js/application.js"></script>
+    <script type="text/javascript" src="/assets/js/worker.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    {% import 'macros/header.njk' as header %}
+
+    {% block content %} {% endblock %}
+
+    {% include "partials/footer.njk" %}
+</body>
+
+</html>
