@@ -9,9 +9,9 @@ Jekyll was taking good care of me and I started to ask about a simplified struct
 
 In this way I spent my time searching and testing some of the static site generators:
 
-[Hexo](https://hexo.io/)
-[Hugo](https://gohugo.io/)
-[Wintersmith](http://wintersmith.io/)
+- [Hexo](https://hexo.io/)
+- [Hugo](https://gohugo.io/)
+- [Wintersmith](http://wintersmith.io/)
 
 All found in this great documentation [Top Open-Source Static Site Generators](https://www.staticgen.com/)
 
