@@ -1,0 +1,97 @@
+{
+  "name": "ciro-maciel/static-here",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/ciro-maciel/static-here",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/static-here",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "static-here",
+      "subhead": " Gulp tasks Static Site Generator - with support Template Engine + Babel + Browsersync",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "static-here:  Gulp tasks Static Site Generator - with support Template Engine + Babel + Browsersync",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "ciro-maciel",
+          "repo": "static-here"
+        }
+      ],
+      "text": "v0.0.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Welcome to Static-Here</h1>\n<p>I am Ciro, and this is a bit of my experience.</p>\n<p>For over a year I have been using jekyll for some projects where I develop websites and parts of static html system.</p>\n<p>Jekyll was taking good care of me and I started to ask about a simplified structure, fast, easy to handle, extensive, where I would have complete control of how I want to develop my application.</p>\n<p>In this way I spent my time searching and testing some of the static site generators:</p>\n<ul>\n<li><a href=\"https://hexo.io/\">Hexo</a></li>\n<li><a href=\"https://gohugo.io/\">Hugo</a></li>\n<li><a href=\"http://wintersmith.io/\">Wintersmith</a></li>\n</ul>\n<p>All found in this great documentation <a href=\"https://www.staticgen.com/\">Top Open-Source Static Site Generators</a></p>\n<p>I did not succeed. Such frameworks work very well for the purpose defined &quot;Static Site Generators&quot;.</p>\n<p>And, with the internet (and its technologies) becoming more and more dynamic, with better and better functional resources, faster and more optimized, I realized that I could go my way, joining the excellent work in many people from my point of view.</p>\n<p>Thus was born Static-Here</p>\n<p>Scopes delimited together to a set of Gulp tasks.</p>\n<h3><strong>Template Engine</strong></h3>\n<p><a href=\"https://mozilla.github.io/nunjucks/\">Nunjucks</a> - A rich and powerful templating language for JavaScript.</p>\n<p>You&apos;ve been looking for a more sophisticated templating engine for JavaScript. Here it is.</p>\n<ul>\n<li>Rich Powerful language with block inheritance, autoescaping, macros, asynchronous control, and more. Heavily inspired by jinja2</li>\n<li>Fast &amp; Lean High-performant. Small 8K gzipped runtime with precompiled templates in the browser</li>\n<li>Extensible Crazy extensible with custom filters and extensions</li>\n<li>Everywhere Available in node and all modern web browsers, with thorough precompilation options</li>\n</ul>\n<h3><strong>Gulp</strong></h3>\n<p><a href=\"http://gulpjs.com/\">Gulp 4.0</a> - Automate and enhance your workflow</p>\n<p>Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.</p>\n<p><strong>Plugins used:</strong></p>\n<ul>\n<li><a href=\"https://www.npmjs.com/package/gulp-4.0.build\">gulp 4.0</a></li>\n<li><a href=\"https://github.com/carlosl/gulp-nunjucks-render\">gulp-nunjucks-render</a></li>\n<li><a href=\"https://github.com/browsersync/browser-sync\">browser-sync</a></li>\n<li><a href=\"https://github.com/babel/gulp-babel\">gulp-babel </a></li>\n<li><a href=\"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-umd\">babel-transform-es2015-modules-umd</a></li>\n<li><a href=\"https://github.com/zont/gulp-usemin\">gulp-usemin</a></li>\n<li><a href=\"https://github.com/jakubpawlowicz/clean-css\">clean-css</a></li>\n<li><a href=\"https://github.com/scniro/gulp-clean-css\">gulp-clean-css</a></li>\n</ul>\n<p><strong>About Gulp 4.0</strong></p>\n<ul>\n<li><a href=\"https://github.com/gulpjs/gulp/blob/4.0/docs/README.md\">README.md</a></li>\n<li><a href=\"https://github.com/gulpjs/gulp/blob/master/docs/API.md\">API</a></li>\n</ul>\n<h3><strong>Browsersync</strong></h3>\n<p><a href=\"https://www.browsersync.io/\">Browsersync</a> - Time-saving synchronised browser testing.</p>\n<p>With each web page, device and browser, testing time grows exponentially. From live reloads to URL pushing, form replication to click mirroring, Browsersync cuts out repetitive manual tasks. It&#x2019;s like an extra pair of hands. Customise an array of sync settings from the UI or command line to create a personalised test environment.</p>\n<p><sub><sup>to duru</sup></sub></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/ciro-maciel/static-here",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/ciro-maciel",
+          "text": "ciro-maciel"
+        }
+      ]
+    }
+  ]
+}
